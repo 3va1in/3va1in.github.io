@@ -2,7 +2,7 @@
 layout: post
 title: Week 1
 subtitle: 确定研究方向
-author: sakiko
+author: 客服祥子
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
