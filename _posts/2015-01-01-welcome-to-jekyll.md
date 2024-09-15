@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Welcome to zjx!
-subtitle: A zjx static site generator.
-author: zjx
-categories: jekyll
+title: Week 1
+subtitle: 确定研究方向
+author: sakiko
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -16,60 +15,51 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: jekyll theme yat
+tags: robot pipe inspection
 top: 1
 sidebar: []
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## 研究方向讨论与确定
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+本周，我们与导师展开了详细的讨论，进一步明确了项目的研究方向。管道检测机器人是用于检测地下管道、供水系统、油气输送管道等复杂场景中的一种专用设备，其核心功能是通过自主移动及传感器技术检测管道内的缺陷、腐蚀、堵塞等问题。鉴于管道环境的封闭性、复杂性及人为操作的局限性，导师建议我们从以下几个方面着手：
 
-## section 000
+- 机器人自主巡检与导航: 管道内部往往存在狭小空间和弯曲的复杂路径，因此机器人的自主巡检与精确导航技术是关键点。我们计划研究如何结合视觉导航与激光雷达技术，使机器人能够自主识别路径，并高效进行管道内部的定位与检测。
+  
+- 传感器数据采集与融合: 管道检测需要多种传感器协同工作，如摄像头、红外传感器、超声波传感器等，用于不同类型缺陷的检测。导师建议我们研究多传感器融合技术，将多源数据有效整合，提升检测精度与可靠性。
 
-Jekyll also offers powerful support for code snippets:
+- 图像识别与智能分析: 在检测过程中，机器人的摄像头将获取大量的图像或视频数据，基于此数据进行智能化的图像处理与缺陷识别是项目的另一重点。导师希望我们探索如何利用机器学习或深度学习算法，自动识别管道中的裂纹、腐蚀等潜在问题。
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-## section 2
+## 导师指导与资源支持
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+本周的讨论过程中，导师为我们提供了很大支持。为了帮助我们在短时间内熟悉相关领域的技术，导师特意邀请了上一届优秀毕业生张美宇学长为我们提供技术辅导。张学长在其毕业设计中曾参与过类似的项目，具备丰富的实操经验和技术积累。他将在后续的几个星期里，帮助我们解决一些技术难题，并对项目的进展提出建议。张学长的参与极大提升了我们对项目成功完成的信心。
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+此外，导师为我们提供了1200元的研究经费，主要用于购买相关的硬件设备和实验材料。我们将合理使用这笔经费，购置必要的传感器、实验平台及其他材料，确保项目顺利推进。
 
-$ a \* b = c ^ b $
 
-$ 2^{\frac{n-1}{3}} $
+## 技术文献阅读与研究现状分析
 
-$ \int_a^b f(x)\,dx. $
+为确保我们深入理解管道检测机器人的技术背景和前沿发展，导师要求我们本周开始阅读相关领域的论文和技术报告。我们需要重点关注以下几个方面：
 
-```cpp
-#include <iostream>
-using namespace std;
+- 管道检测机器人的发展历程与现状: 包括早期机械化检测手段的发展，智能机器人技术的引入，以及目前自动化检测技术的发展方向。
+  
+- 技术挑战与瓶颈: 管道检测过程中，机器人需要面对恶劣的环境、复杂的路径以及传感器数据的实时处理等问题。如何解决这些问题，是我们需要深入研究的重点。
 
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
-// prints 'Hi, Tom' to STDOUT.
-```
+- 现有研究的不足与未来创新点: 我们将从现有研究的不足之处寻找创新的切入点，结合最新的AI技术和传感器融合技术，探索更为智能高效的解决方案。
 
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+这些文献不仅有助于我们理解管道检测技术的发展方向，还将为我们后续的研究提供理论支持。导师强调，文献阅读是我们技术学习的基础，能帮助我们从理论层面构建起完整的知识体系。
 
-p1 = Person("John", 36)
 
-print(p1.name)
-print(p1.age)
-```
+## 文献综述任务与下阶段计划
+
+导师给我们布置了第一个任务，即撰写一份 **关于管道检测技术的文献综述报告**。这份综述将从技术背景、研究现状、存在的问题以及未来的发展方向等方面进行分析总结。导师要求我们在中秋假期后提交报告，并向他汇报我们的学习进展。
+
+下阶段计划:
+- 我们将在接下来的两周内，集中精力阅读相关文献，并将所学内容进行系统总结。
+- 根据导师的建议，我们将把文献分为几个主要类别，包括自动化巡检技术、传感器应用、图像识别技术以及机器人导航技术等，逐步梳理出项目的核心技术路径。
+- 我们还计划在阅读文献的过程中，记录下值得进一步研究和探索的问题，为后续的设计与实施阶段奠定基础。
+
+
+## 总结
+通过本周的讨论与初步工作，我们明确了研究方向、获得了导师和张美宇学长的支持，并制定了详细的工作计划。接下来，我们将围绕文献综述展开研究，逐步深入理解管道检测机器人的关键技术，并为后续的项目实施做好准备。
