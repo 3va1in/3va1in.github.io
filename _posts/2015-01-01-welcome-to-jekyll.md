@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to Avemujica!
+title: Welcome to Abc!
 subtitle: A awesome static site generator.
 author: Jeffrey
 categories: jekyll
