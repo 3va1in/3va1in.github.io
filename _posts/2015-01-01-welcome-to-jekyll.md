@@ -8,7 +8,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: web.assets/WechatIMG7194.jpg
+  image: assets/WechatIMG7194.jpg
   opacity: 0.618
   background: "#000"
   height: "100vh"
