@@ -8,7 +8,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: https://github.com/3va1in/3va1in.github.io/blob/master/assets/images/WechatIMG7194.jpg
+  image: https://github.com/3va1in/3va1in.github.io/blob/master/assets/images/WechatIMG7196.jpg
   opacity: 0.618
   background: "#000"
   height: "100vh"
