@@ -8,7 +8,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: https://i2.hdslb.com/bfs/archive/5f35b0cd0564e12b5e2161b3ca658bfd1443ce29.jpg
+  image: https://i2.hdslb.com/bfs/archive/f4f866d5697ff1d991dff043ef6a2fbc45b186af.jpg
   opacity: 0.618
   background: "#000"
   height: "100vh"
